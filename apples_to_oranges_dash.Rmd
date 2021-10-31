@@ -1,0 +1,63 @@
+---
+title: "Comparing Apples to Oranges with Instacart Data"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+data("instacart")
+```
+
+Row
+-----------------------------------------------------------------------
+
+### Add to Cart Order for Oranges and Select Apples
+
+```{r apple cart}
+apples_oranges <- 
+  instacart %>% 
+  filter(aisle == "fresh fruits") %>% 
+  filter(product_name == "Honeycrisp Apple" | product_name == "Granny Smith Apples" | str_detect(product_name, "Oranges$")) %>% 
+  mutate(product_name = str_trunc(product_name, 24, ellipsis = "...")) %>% 
+  mutate(product_name = fct_rev(fct_infreq(factor(product_name)))) %>% 
+  select(product_name, add_to_cart_order)
+  
+
+apples_oranges %>% 
+  plot_ly(x = ~add_to_cart_order, color = ~product_name, type = "box", colors = "viridis")
+```
+
+Row {.tabset .tabset-fade}
+-----------------------------------------------------------------------
+
+### Most Popular Apples
+
+```{r}
+instacart %>% 
+  filter(aisle == "fresh fruits") %>% 
+  filter(str_detect(product_name, "Apple$ | Apples$")) %>% 
+  group_by(product_name) %>% 
+  mutate(product_name = str_trunc(product_name, 24, ellipsis = "...")) %>% 
+  summarise(n_purch = n()) %>% 
+  mutate(product_name = factor(product_name, levels = product_name[order(n_purch, decreasing = TRUE)])) %>% 
+  plot_ly(x = ~product_name, y = ~n_purch, color = ~product_name, type = "bar", colors = "viridis")
+```
+
+### Most Popular Oranges
+
+```{r}
+instacart %>% 
+  filter(aisle == "fresh fruits") %>% 
+  filter(str_detect(product_name, "Oranges$")) %>% 
+  mutate(product_name = str_trunc(product_name, 24, ellipsis = "...")) %>% 
+  group_by(product_name) %>% 
+  summarise(n_purch = n()) %>% 
+  mutate(product_name = factor(product_name, levels = product_name[order(n_purch, decreasing = TRUE)])) %>% 
+  plot_ly(x = ~product_name, y = ~n_purch, color = ~product_name, type = "bar", colors = "viridis")
+```
+
