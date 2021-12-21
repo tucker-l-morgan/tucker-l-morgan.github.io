@@ -8,7 +8,7 @@ navbar:
     - text: "Projects"
       menu:
         - text: "NYC COVID Trends - Group Project"
-        - href: "./nyc_covid_trends/index.html"
+        - href: https://tucker-l-morgan.github.io/nyc_covid_trends/
     - icon: fa-envelope fa-lg
       href: mailto:<tlm2152@cumc.columbia.edu>
     - icon: fa-github fa-lg
