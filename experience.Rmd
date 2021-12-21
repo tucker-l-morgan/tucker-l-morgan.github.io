@@ -12,4 +12,4 @@ From August 2018 through July 2021, I worked as an Internal Audit and Financial 
 
 ### Projects
 
-For a group project in P8105 - Data Science I, my group members and I analyzed COVID-19 outcomes data alongside demographic and socioeconomic data from the U.S. Census. The project, NYC COVID Trends, has its own website [here](https://tucker-l-morgan.github.io/nyc_covid_trends).
+For an end-of-semester group project in our Data Science course, my group members and I analyzed COVID-19 outcomes data in New York City alongside demographic and socioeconomic data from the U.S. Census. The project, NYC COVID Trends, has its own website [here](https://tucker-l-morgan.github.io/nyc_covid_trends).
