@@ -17,3 +17,7 @@ I graduated magna cum laude from [The University of Georgia](https://www.terry.u
 ### Professional
 
 From August 2018 through July 2021, I worked as an Internal Audit and Financial Advisory Consultant at [Protiviti, Inc.](https://www.protiviti.com/) in the Los Angeles area. This work was project-based with teams from two or three to ten or more members. Projects ranged from entity-level risk assessments with the goal of quantifying relative risk of fraud or loss in various business sectors to performing specific business process audits, such as loan underwriting or financial derivatives management. I gained valuable experience working with diverse teams on a variety of projects in industries including: residential and commercial real estate, community and corporate banking, and clinical stage biopharmaceuticals.
+
+### Projects
+
+For a group project in P8105 - Data Science I, my group members and I analyzed COVID-19 outcomes data alongside demographic and socioeconomic data from the U.S. Census. The project, NYC COVID Trends, has its own website [here](https://tucker-l-morgan.github.io/nyc_covid_trends).
