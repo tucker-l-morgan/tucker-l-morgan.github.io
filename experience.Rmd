@@ -1,13 +1,3 @@
----
-title: "Experience"
----
-
-<style>
-  .title{
-    display: none;
-  }
-</style>
-
 ### Education
 
 I graduated magna cum laude from [The University of Georgia](https://www.terry.uga.edu/) with a BBA in Finance in May 2018. I studied Chemistry for my first two years at The University of Georgia and tutored general chemistry and organic chemistry during that time. I enrolled in the Master of Science, Biostatistics program at the Columbia University Mailman School of Public Health in 2021.
