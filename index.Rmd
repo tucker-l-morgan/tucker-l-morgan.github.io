@@ -1,3 +1,13 @@
+---
+title: "Tucker Morgan"
+---
+
+<style>
+  .title{
+    display: none;
+  }
+</style>
+
 # About
 
 <img src="images/headshot.jpeg" style="width:40%; height:40%; padding-right: 100px" align = "left">
