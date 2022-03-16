@@ -12,6 +12,6 @@ From August 2018 through July 2021, I worked as an Internal Audit and Financial 
 
 ### Projects
 
-For an end-of-semester group project in our Data Science course, my group members and I analyzed COVID-19 outcomes data in New York City alongside demographic and socioeconomic data from the U.S. Census. The project, NYC COVID Trends, has its own website [here](https://tucker-l-morgan.github.io/nyc_covid_trends).
+For an end-of-semester group project in our Data Science course, my group members and I analyzed COVID-19 outcomes data in New York City alongside demographic and socioeconomic data from the U.S. Census. The project, NYC COVID Trends, has its own website [here](https://tucker-l-morgan.github.io/nyc_covid_trends/).
 
 In an advanced statistical computing course, our group conducted a simulation study to examine the performance of simple and complex bootstrapping methods in estimating standard errors. Specifically, we looked at this question in the context of propensity-score matching. The project report can be found [here](https://github.com/tucker-l-morgan/p8160_proj1_4_C/blob/main/p8160_proj1_report.pdf).
