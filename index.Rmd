@@ -3,6 +3,6 @@
 <img src="images/headshot.jpeg" style="width:40%; height:40%; padding-right: 100px" align = "left">
 I obtained my BBA in Finance from [The University of Georgia](https://www.terry.uga.edu/) in 2018. I am currently enrolled in the Master of Science, Biostatistics program at the Columbia University Mailman School of Public Health.
 
-My current research interests include Bayesian inference, climate and health, and survival analysis.
+My current research interests include high-dimensional data analysis, Bayesian inference, and climate and health.
 
 In my personal time, I enjoy hiking and camping. I love to read. And I like to watch NBA basketball.
