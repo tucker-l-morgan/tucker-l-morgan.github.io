@@ -13,7 +13,7 @@
 
 <title>experience.knit</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,7 +238,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -288,16 +292,78 @@ $(document).ready(function () {
 
 <div id="education" class="section level3">
 <h3>Education</h3>
-<p>I graduated magna cum laude from <a href="https://www.terry.uga.edu/">The University of Georgia</a> with a BBA in Finance in May 2018. I studied Chemistry for my first two years at The University of Georgia and tutored general chemistry and organic chemistry during that time. I enrolled in the Master of Science, Biostatistics program at the Columbia University Mailman School of Public Health in 2021. <br> <br></p>
+<p>I graduated magna cum laude from <a
+href="https://www.terry.uga.edu/">The University of Georgia</a> with a
+BBA in Finance in May 2018. I studied Chemistry for my first two years
+at The University of Georgia and tutored general chemistry and organic
+chemistry during that time. I enrolled in the Master of Science,
+Biostatistics program at the Columbia University Mailman School of
+Public Health in 2021. <br> <br></p>
 </div>
 <div id="professional" class="section level3">
 <h3>Professional</h3>
-<p>From August 2018 through July 2021, I worked as an Internal Audit and Financial Advisory Consultant at <a href="https://www.protiviti.com/">Protiviti, Inc.</a> in the Los Angeles area. This work was project-based with teams from two or three to ten or more members. Projects ranged from entity-level risk assessments with the goal of quantifying relative risk of fraud or loss in various business sectors to performing specific business process audits, such as loan underwriting or financial derivatives management. I gained valuable experience working with diverse teams on a variety of projects in industries including: residential and commercial real estate, community and corporate banking, and clinical stage biopharmaceuticals. <br> <br></p>
+<p>From August 2018 through July 2021, I worked as a Business Process
+Consultant at <a href="https://www.protiviti.com/">Protiviti, Inc.</a>
+in the Los Angeles area. This work was project-based with teams from two
+or three to ten or more members. Projects ranged from entity-level risk
+assessments with the goal of quantifying relative risk of fraud or loss
+in various business sectors to performing specific business process
+audits, such as loan underwriting or financial derivatives management. I
+gained valuable experience working with diverse teams on a variety of
+projects in industries including: residential and commercial real
+estate, community and corporate banking, and clinical stage
+biopharmaceuticals. <br> <br></p>
 </div>
 <div id="projects" class="section level3">
 <h3>Projects</h3>
-<p>For an end-of-semester group project in our Data Science course, my group members and I analyzed COVID-19 outcomes data in New York City alongside demographic and socioeconomic data from the U.S. Census. The project, NYC COVID Trends, has its own website <a href="https://tucker-l-morgan.github.io/nyc_covid_trends/">here</a>.</p>
-<p>In an advanced statistical computing course, our group conducted a simulation study to examine the performance of simple and complex bootstrapping methods in estimating standard errors. Specifically, we looked at this question in the context of propensity-score matching. The project report can be found <a href="https://github.com/tucker-l-morgan/p8160_proj1_4_C/blob/main/p8160_proj1_report.pdf">here</a>.</p>
+<p>As a final project in an advanced statistical computing course, we
+utilized Bayesian methods and a Gibbs Sampling Markov Chain Monte Carlo
+algorithm to analyze hurricane data and predict future wind speed. The
+full report on this project can be found <a
+href="https://github.com/tucker-l-morgan/p8160_hurricane/blob/main/Report.pdf">here</a>.
+My primary responsibilities on this project included deriving posterior
+distributions of parameters, writing code for our Gibbs Sampling
+algorithm, and writing the results and discussion sections of our
+report.</p>
+<center>
+<img src="images/markov_chain.jpg" style="width:40%; height:40%">
+</center>
+<p><br></p>
+<p>For an end-of-semester group project in our data science course, my
+group members and I analyzed COVID-19 outcomes data in New York City
+alongside demographic and socioeconomic data from the U.S. Census. The
+project, NYC COVID Trends, has its own website <a
+href="https://tucker-l-morgan.github.io/nyc_covid_trends/">here</a>. My
+primary responsibilities on this project included data cleaning and
+conversion, exploratory data analysis, and website development.</p>
+<p>In an advanced statistical computing course, our group conducted a
+simulation study to examine the performance of simple and complex
+bootstrapping methods in estimating standard errors. Specifically, we
+looked at this question in the context of propensity-score matching. The
+project report can be found <a
+href="https://github.com/tucker-l-morgan/p8160_proj1_4_C/blob/main/p8160_proj1_report.pdf">here</a>.
+My primary responsibilities included writing algorithms for the
+generation, bootstrapping, and analysis of continuous outcome data,
+plotting results like confidence interval coverage rates and standard
+error estimates, and contributing to the results and discussion sections
+of the report.</p>
+<p>For an end-of-semester group project in a statistical learning
+course, my group combined work from midterm projects to predict 10-year
+coronary heart disease (CHD) risk using data from the <a
+href="https://www.framinghamheartstudy.org/">Framingham Heart Study</a>.
+In this project, we used the <code>caret</code> package in R to fit
+various models ranging from logistic LASSO to random forest
+classification and support vector machine. We used area-under-curve
+(AUC) as our scoring measure and compared the cross-validation
+performance of all considered models. The final report for this project
+can be found <a
+href="https://github.com/tucker-l-morgan/p8106_final_project/blob/main/p8106_final_project.pdf">here</a>.
+My primary responsibilities on this project included fitting models,
+collaborating on report figures, and writing the report, particularly
+strengths and weaknesses of the various model types.</p>
+<center>
+<img src="images/fhs_cv_res.jpg" style="width:60%; height:60%">
+</center>
 </div>
 
 
