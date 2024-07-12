@@ -11,8 +11,7 @@ navbar:
       href: http://github.com/tucker-l-morgan/
     - icon: fa-linkedin fa-lg
       href: http://linkedin.com/in/tuckermo/
-    - icon: fa-instagram fa-lg
-      href: https://www.instagram.com/tuckersbirds/
+
 output:
   html_document:
     theme: darkly
