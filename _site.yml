@@ -6,13 +6,13 @@ navbar:
     - text: "Experience"
       href: experience.html
     - icon: fa-envelope fa-lg
-      href: mailto:<tlm2152@cumc.columbia.edu>
+      href: mailto:<tucker.l.morgan@gmail.com>
     - icon: fa-github fa-lg
       href: http://github.com/tucker-l-morgan/
     - icon: fa-linkedin fa-lg
       href: http://linkedin.com/in/tuckermo/
-    - icon: fa-twitter fa-lg
-      href: https://twitter.com/Tuckerm_
+    - icon: fa-instagram fa-lg
+      href: https://www.instagram.com/tuckersbirds/
 output:
   html_document:
     theme: darkly

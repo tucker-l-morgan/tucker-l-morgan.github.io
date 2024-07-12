@@ -1,14 +1,14 @@
 ### Education
 
-I received my Master of Science in Biostatistics from the Mailman School of Public Health at Columbia University in May 2023. My coursework included research methods, statistical analysis, machine learning, among other topics. I graduated magna cum laude from [The University of Georgia](https://www.terry.uga.edu/) with a BBA in Finance in May 2018.
+I received my Master of Science in Biostatistics from [the Mailman School of Public Health](https://www.publichealth.columbia.edu/academics/departments/biostatistics) at Columbia University in May 2023. My coursework included research methods, statistical analysis, and machine learning among other topics. I graduated magna cum laude from [The University of Georgia](https://www.terry.uga.edu/) with a BBA in Finance in May 2018.
 <br>
 <br>
 
 ### Professional
 
-Currently, I work for the National Basketball Association (NBA) in data strategy and analytics. In my role, I primarily focus on building and releasing data products and reporting for NBA teams; through this work I analyze new data sources, build new data models, and communicate updates to users. In addition to these responsibilities, I develop predictive models around fan activity and build visualizations of fan activity, particularly geographic visualizations.
+Currently, I work for the [National Basketball Association (NBA)](https://www.nba.com/) in data strategy and analytics working mostly with fan data. In my role, I primarily focus on building and releasing data products and reporting for NBA teams; through this work I analyze new data sources, build new data models, and coordinate and communicate updates to users and stakeholders. In addition to these responsibilities, I develop predictive models and build visualizations focused on fan activity. The tools I use in my role include SQL, R, Python, and Tableau.
 
-During graduate school, I contributed to research projects at both New York Presbyterian and New York University Langone. My primary responsibilities were performing statistical analyses and contributing to methods and results sections of research publications.
+During graduate school, I contributed to research projects at both New York Presbyterian and New York University Langone. My primary responsibilities were performing statistical analyses and contributing to methods and results sections of research publications. The topics of our research included smoking reduction and ecological momentary assessment (EMA) data in one set of projects and COVID-19 attitudes and survey data in another.
 
 From August 2018 through July 2021, I worked as a Business Process Consultant at [Protiviti, Inc.](https://www.protiviti.com/) in the Los Angeles area. This work was project-based with teams from two or three to ten or more members. Projects ranged from entity-level risk assessments with the goal of quantifying relative risk of fraud or loss in various business sectors to performing specific business process audits, such as loan underwriting or financial derivatives management. I gained valuable experience working with diverse teams on a variety of projects in industries including: residential and commercial real estate, community and corporate banking, and clinical stage biopharmaceuticals.
 <br>
